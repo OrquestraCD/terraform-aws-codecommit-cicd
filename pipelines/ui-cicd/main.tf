@@ -5,7 +5,7 @@ provider "aws" {
 module "ui-cicd" {
   source                 = "git::https://github.com/craigmartin/terraform-aws-codecommit-cicd.git?ref=master"
   repo_name              = "ui-devops"
-  organization_name      = "Ubiquity Networks"
+  organization_name      = "craigmartin"
   repo_default_branch    = "master"
   aws_region             = "us-west-2"
   char_delimiter         = "-"

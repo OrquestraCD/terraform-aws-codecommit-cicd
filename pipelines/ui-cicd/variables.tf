@@ -16,7 +16,7 @@ variable "aws_region" {
 
 variable "organization_name" {
   description = "The organization name provisioning the template (e.g. acme)"
-  default     = "Ubiquity Networks"
+  default     = "craigmartin"
 }
 
 variable "char_delimiter" {
