@@ -72,3 +72,4 @@ variable "test_buildspec" {
 variable "package_buildspec" {
   description = "The buildspec to be used for the Package stage (default: buildspec.yml)"
   default     = "buildspec.yml"
+}
