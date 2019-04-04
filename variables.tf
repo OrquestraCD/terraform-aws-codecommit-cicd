@@ -16,7 +16,7 @@ variable "aws_region" {
 
 variable "organization_name" {
   description = "The organization name provisioning the template (e.g. acme)"
-  default     = "Glee Machine"
+  default     = "GleeMachine"
 }
 
 variable "char_delimiter" {
