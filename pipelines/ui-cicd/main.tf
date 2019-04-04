@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
-module "basic_example" {
+module "ui-cicd" {
   source                 = "git::https://github.com/craigmartin/terraform-aws-codecommit-cicd.git?ref=master"
   repo_name              = "ui-devops"
   organization_name      = "Ubiquity Networks"
