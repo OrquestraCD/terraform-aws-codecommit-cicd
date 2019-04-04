@@ -10,7 +10,7 @@ provider "aws" {
 }
 
 # Generate a unique label for naming resources
-module "unique_label" {
+module "codecommit-cicd" {
   source     = "git::https://github.com/craigmartin/terraform-aws-codecommit-cicd.git?ref=master"
   namespace  = "${var.organization_name}"
   name       = "${var.repo_name}"
